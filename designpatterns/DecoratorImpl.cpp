@@ -8,13 +8,10 @@ class Car{
 		Car(){
 			_str = "Unknown Car";
 		}
-		
 		virtual string getDescription(){
 			return _str;
 		}
-		
 		virtual double getCost() = 0;
-		
 		virtual ~Car(){
 			cout << "~Car()\n";
 		}
